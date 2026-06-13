@@ -1,0 +1,24 @@
+site_name: Python RAG Framework
+site_description: A lightweight Python framework for retrieval-augmented generation.
+repo_url: https://github.com/lelouchzr/python-rag-framework
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - content.code.copy
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Quick Start: quick-start.md
+  - Examples: examples.md
+  - API Reference: api.md
+  - Architecture: architecture.md
+  - Benchmarks: benchmarks.md
+  - Contributing: contributing.md
+  - Verification and Packaging: verification.md
+  - Roadmap: roadmap.md
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
